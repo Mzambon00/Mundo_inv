@@ -1,0 +1,29 @@
+# ==============================================================================
+# ARQUIVO: requirements.txt
+# O QUE FAZ: Lista todas as dependências do projeto
+# AUTOR: Marcos Zambon
+# DATA: 25/05/2026
+# ==============================================================================
+
+# Web Framework
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+
+# Database
+sqlalchemy==2.0.25
+
+# Data validation
+pydantic==2.6.0
+pydantic[email]==2.6.0
+email-validator==2.1.0
+
+# HTTP Client (Pipefy GraphQL)
+httpx==0.27.0
+
+# Testing
+pytest==8.0.0
+pytest-cov==4.1.0
+
+# Code quality
+black==24.2.0
+flake8==7.0.0
